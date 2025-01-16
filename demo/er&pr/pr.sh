@@ -5,16 +5,6 @@ MY_Device=0
 MY_Type=original
 MY_SlidePath=/media/data/slide/pr
 
-#echo '----------extract feature----------'
-#python extract_feature_clean.py \
-#--datasetsName $MY_Data_Name \
-#--model $My_Model_Use \
-#--slide_dir $MY_SlidePath \
-#--batch_size 256 \
-#--workers 8 \s
-#--device $MY_Device \
-#--round 0 \
-#--n_classes $MY_Classes
 
 echo "----------training MIL model----------"
 python /home/Projects/SlideClassify/train_model.py \
