@@ -5,17 +5,6 @@ MY_Device=0
 MY_Type=original
 MY_SlidePath=/media/data/slide/er
 
-#echo '----------extract feature----------'
-#python /home/ipmi2023-sc/PycharmProjects/SlideClassify_stardard20240310/extract_feature_clean.py \
-#--datasetsName $MY_Data_Name \
-#--model $My_Model_Use \
-#--slide_dir $MY_SlidePath \
-#--batch_size 256 \
-#--workers 8 \
-#--device $MY_Device \
-#--round 0 \
-#--n_classes $MY_Classes
-#
 echo "----------training MIL model----------"
 python /home/Projects/SlideClassify/train_model.py \
 --datasetsName $MY_Data_Name \
