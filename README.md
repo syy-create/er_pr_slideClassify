@@ -1,6 +1,6 @@
 # Prediction of luminal-type breast cancer using deep learning via hematoxylin and eosin-stained whole-slide images
 ## Indouction
-This code is used to predict the expression of er and pr in the whole section of breast cancer.
+This code is used to predict the expression of er and pr in the whole slide of breast cancer.
 ## Dependecies
 In the environment configuration, we use version Python==3.8, pytorch==1.10.0+cu102.
 ## Usage
